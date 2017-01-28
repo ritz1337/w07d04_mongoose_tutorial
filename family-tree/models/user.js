@@ -9,7 +9,7 @@ var UserSchema = new mongoose.Schema({
     age: Number,
     website: String,
     address: String,
-    country: String
+    country: String,
   },
   createdAt: Date,
   updatedAt: Date
